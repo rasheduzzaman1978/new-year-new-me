@@ -58,11 +58,14 @@
   font-weight: 600;
 }
 
-.btn.white {
+.white {
   background: #fff;
   color: #f15b22;
 }
 
+.white:hover {
+  background-color: chartreuse;
+}
 /* =====================
    FAILURES SECTION
 ===================== */
@@ -158,7 +161,6 @@
 .skills-container {
   width: 71%;
   max-width: 1140px;
-  border: 1 solid red;
   margin: 0 auto;
 }
 
