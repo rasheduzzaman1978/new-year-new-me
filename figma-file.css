@@ -1,0 +1,270 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+ }
+
+/* CONTAINER */
+.container {
+  max-width: 1140px;
+  width: 71%;
+  margin: auto;
+}
+
+/* =====================
+   HERO SECTION
+===================== */
+.hero-bg {
+  min-height: 100vh;
+  background: url("images/banner/banner1.png") no-repeat left center / cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 160px;
+  margin-bottom: 60px;
+}
+
+.hero-content {
+  max-width: 520px;
+  text-align: right;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.hero-content p {
+  color: #737272;
+  margin-bottom: 32px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  padding: 14px 32px;
+  background: #F15B22;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.btn.white {
+  background: #fff;
+  color: #f15b22;
+}
+
+/* =====================
+   FAILURES SECTION
+===================== */
+.failures {
+  padding: 120px 0;
+}
+
+.failures-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 180px;
+}
+
+/* Image Background Circle */
+.person-bg {
+  width: 420px;
+  height: 420px;
+  background: #fde7dc; /* Figma-like light color */
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* Person Image */
+.person-bg img {
+  width: 360px;
+}
+
+.failures img {
+  width: 420px;
+}
+
+.failures h2 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.failures p {
+  color: #737272;
+  margin-bottom: 16px;
+}
+
+.failures ul {
+  list-style: none;
+}
+
+.failures ul li {
+  margin-bottom: 10px;
+  padding-left: 24px;
+  position: relative;
+  width: max-content;
+}
+
+.failures ul li::before {
+  content: "✓";
+  color: #16d887;
+  position: absolute;
+  left: 0;
+}
+
+/* =====================
+   CTA SECTION
+===================== */
+.cta {
+  background: url("images/icons/watch.png") no-repeat center / cover;
+  padding: 80px 0;
+  width: 71%;
+  max-width: 1140px;
+  border: 5 solid red;
+  margin: 80px auto;
+}
+
+.cta-content {
+  max-width: 500px;
+  margin-left: 120px;
+}
+
+.cta h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+/* =====================
+   SKILLS SECTION
+===================== */
+.skills {
+  padding: 20px 0;
+}
+
+.skills-container {
+  width: 71%;
+  max-width: 1140px;
+  border: 1 solid red;
+  margin: 0 auto;
+}
+
+.skills h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #151414;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.skills-wrap {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.skill img {
+  width: 80px;
+  margin-bottom: 16px;
+}
+
+.skill p {
+  font-weight: 600;
+}
+
+/* =====================
+   FOOTER
+===================== */
+.footer {
+  background: #151414;
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+.footer-container {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+}
+
+/* Footer Left */
+.footer-left {
+  max-width: 480px;
+}
+
+.footer-left h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.footer-left .desc {
+  color: #b3b3b3;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.footer-left p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Social Icons */
+.social {
+  margin-top: 20px;
+}
+
+.social img {
+  width: 32px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+/* Footer Right */
+.footer-right {
+  max-width: 320px;
+}
+
+.footer-right h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-right input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background: transparent;
+  color: #fff;
+}
+
+.footer-right input::placeholder {
+  color: #aaa;
+}
+
+.footer-right button {
+  padding: 14px 28px;
+  background: #f15b22;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
